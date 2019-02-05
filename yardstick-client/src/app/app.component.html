@@ -1,0 +1,12 @@
+<div class="grid">
+  <span> Id </span>
+  <span> UserName </span>
+  <span> Last Login </span>
+  <ng-container *ngFor="let user of usersData | async; trackBy: trackByUser">
+    <span>{{ user.id }}</span>
+    <span>{{ user.userName }}</span>
+    <span>{{ user.lastLogin | date: 'MM/dd/yyyy' }}</span>
+  </ng-container>
+</div>
+
+<router-outlet></router-outlet>

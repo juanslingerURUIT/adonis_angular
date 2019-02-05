@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  grid-template-columns: 50px 350px 150px;
+}
+
+// .header span, .row span {
+//   // grid-area: header;
+//   &:first-child {
+//     grid-column-start: 1;
+//   }
+
+//   &:last-child {
+//     grid-column-start: 2;
+//   }
+// }
+
+// .row {
+//   grid-area: main;
+// }
